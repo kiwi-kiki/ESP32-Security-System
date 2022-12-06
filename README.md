@@ -4,6 +4,8 @@ Project description:
 
 The ESP32CAM continuously looks for the door status. If the door is closed, then the ESP32CAM goes into the sleep mode. When the door is opened, ESP wakes up from sleep mode, connects to the Wi-Fi, goes through the camera initializations, and keeps on looking for the motion. If the motion is detected, it then takes a picture and sends it to the entered email address. Otherwise, if the door is closed, the ESP32CAM will go back into sleep mode.
 
+This repository contains two versions of the code one, containing the door sesnor and one without it.
+
 Hardware:
 
 ![image](https://user-images.githubusercontent.com/60723743/205772569-7d729052-f0f1-491a-98b1-cc2c40e70f10.png)
