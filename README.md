@@ -7,7 +7,8 @@ The ESP32CAM continuously looks for the door status. If the door is closed, then
 Hardware:
 
 ![image](https://user-images.githubusercontent.com/60723743/205772569-7d729052-f0f1-491a-98b1-cc2c40e70f10.png)
-LILYGO: ESP32 T- Camera 
+  - LILYGO: ESP32 T- Camera 
+  - Door Sensor
 Door Sensor
 
 Software details:
